@@ -1,0 +1,16 @@
+/* sélecteur naturel relatif à une balise html */
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* tous les span de tous les p */
+p span {
+    color:red;
+}
+
+/* tous les p des section */
+
+section p {
+    color: blue;
+}
