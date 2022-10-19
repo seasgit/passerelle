@@ -1,0 +1,13 @@
+/* règle css
+    selecteur {
+        property: value;
+    }
+*/
+
+h1 {
+    color:#31aab0;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px 10px #969696;
+    letter-spacing: 5px;
+}
