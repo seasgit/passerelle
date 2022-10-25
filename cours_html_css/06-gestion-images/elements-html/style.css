@@ -1,0 +1,37 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 
+    La hauteur de la boite dépendrade son contenu
+*/
+.f1 {
+    margin: 50px 0 20px 50px;  /* ordre => top right bottom left */
+    width: 400px;
+    height: auto;
+    border:10px solid black;
+}
+
+/* l'élement img dans figure */
+.f1 img {
+    width: 100%;
+    /* hack pour gérer l'espace en trop en bas de l'image */
+    display: table;
+}
+
+
+.f2 {
+    margin-left: 100px;
+    width: 600px;
+    height: 600px;
+    border:5px solid #444;
+}
+
+/* image s'adapte aux dimensions de la boite */
+.f2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100%  100%;
+}

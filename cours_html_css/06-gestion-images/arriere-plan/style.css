@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    margin: 50px auto 0 auto;
+    width: 700px;
+    height: 400px;
+    background-image: url(../../data/images/pexels-photo-1619317.jpeg);
+    background-size: cover;
+}
+
+section h1{
+    text-align: center;
+    /* interlignage = hauteur boite */
+    line-height: 400px;
+    color: rgb(212, 212, 212);
+    font-size: 50px;
+}
