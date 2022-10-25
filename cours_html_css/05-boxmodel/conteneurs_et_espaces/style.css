@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+article {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+}
+article {
+    height: auto;
+    line-height: 24px;
+    text-align: justify;
+        /* espace interne */
+        padding: 10px 20px 10px 20px;
+        /* hack pour éviter la dilation */
+        box-sizing: border-box;
+    background-color: #ccc;
+    font-family: sans-serif;
+}

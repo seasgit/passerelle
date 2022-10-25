@@ -1,0 +1,26 @@
+/* ici on liste les sélecteurs naturels 
+
+div,
+header,
+footer,
+figure,
+article {
+    width: 500px;
+    height:300px;
+} 
+*/
+
+/* tous les éléments de class .box */
+.box {
+    width: 500px;
+    height: 300px;
+}
+
+/* boites impaires */
+.box:nth-child(odd){
+    background-color: aqua;
+}
+
+.box:nth-child(even){
+    background-color: pink;
+}

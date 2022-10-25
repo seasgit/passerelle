@@ -1,0 +1,33 @@
+/* reset des marges de tous les éléments */
+
+* {
+    margin: 0;
+}
+
+
+/* tous les éléments de class .box */
+.box {
+    width: 500px;
+    height: 300px;
+}
+
+/* boites impaires */
+.box:nth-child(odd){
+    background-color: aqua;
+}
+
+.box:nth-child(even){
+    background-color: pink;
+}
+
+
+div {
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+/* boite est centrée horizontalement */
+footer {
+    margin-left: auto;
+    margin-right: auto;
+}
