@@ -9,6 +9,7 @@
     height: 500px;
     position: relative;
     margin: 20px auto;
+    overflow: hidden;
 }
 
 .jungle img {
@@ -21,16 +22,25 @@
 
 .soldat {
     position: absolute;
-    left: 200px;
+    left: -200px;
     bottom: 25px;
     width: 146px;
     height: 191px;
     background-image: url(../../../data/images/jungle/soldat.png);
     background-position: 0 0;
-    animation-name: step;
+    /* animation-name: step;
     animation-duration: 0.7s;
     animation-timing-function: step-start;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
+    animation: 
+        step 0.7s step-start infinite,
+        move 7s linear infinite;
+}
+
+@keyframes move {
+    100% {
+        transform: translateX(1000px);
+    }
 }
 
 @keyframes step {
