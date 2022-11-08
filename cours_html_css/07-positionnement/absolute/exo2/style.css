@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    /* les div sont relatifs à leur parent, la section */
+    position: relative;
+    margin: 100px auto 0 auto;
+    width: 600px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+div {
+    width: 60px;
+    height: 60px;
+}
+
+/* 
+    Ici on utilise les pseudos classes
+    à titre de révision des sélecteurs
+*/
+
+div:nth-of-type(even){
+    background-color: chartreuse;
+}
+
+div:nth-of-type(odd){
+    background-color: rgb(64, 185, 229);
+}
+
+
+div:nth-of-type(1){
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+div:nth-of-type(2){
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+
+div:nth-of-type(3){
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+div:nth-of-type(4){
+    position: absolute;
+    bottom:20px;
+    right: 20px;
+}
+
+div:nth-of-type(5){
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    margin: -30px 0 0 -30px;
+}

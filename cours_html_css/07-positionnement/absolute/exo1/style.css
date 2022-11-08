@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* 
+ position : left top right bottom
+*/
+
+.box1 {
+    background-color: red;
+    left : 100px;
+    top: 90px;
+}
+
+.box2 {
+    background-color: green;
+    right: 100px;
+    top:200px;
+}
+
+.box3 {
+    background-color: blue;
+    bottom: 40px;
+    left: 50%;
+}
+
