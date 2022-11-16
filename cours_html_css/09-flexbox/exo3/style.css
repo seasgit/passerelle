@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+body {
+    /* 100% de la hauteur du viewport */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* attention alignement de plusieurs rangées */
+    align-content: space-evenly;
+    width: 800px;
+    height: 600px;
+    background: rgb(208, 206, 206);
+}
+
+div {
+    width: 240px;
+    height: 160px;
+    background: rgb(76, 187, 90);
+}

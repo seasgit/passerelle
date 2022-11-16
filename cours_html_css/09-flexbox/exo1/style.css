@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+        /* justify-content: center; */
+        justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    /* margin: 80px auto 0 auto */
+
+    width: 700px;
+    height: 250px;
+    background: rgb(221, 218, 218);
+
+}
+
+div {
+    width: 100px;
+    height: 60px;
+}
+
+div:nth-of-type(odd){
+    background: #106db9;
+}
+
+div:nth-of-type(even){
+    background: orangered;
+}
