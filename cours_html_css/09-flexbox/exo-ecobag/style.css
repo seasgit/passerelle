@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* eléments positionnés en absolu 
+*/
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    width: 120px;
+}
+
+.social {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+
+.social img {
+    width: 35px;
+    margin-right:5px;
+}
+
+.main-container {
+    /* flexbox pour la section  de texte
+    */
+    display: flex;
+    align-items: center;
+
+    /* parent des éléments en absolute 
+    */
+    position: relative;
+
+    /* boxmodel 
+    */
+    margin:30px auto 0 auto;
+    width: 1200px;
+    height: 700px;
+
+    /* background multiple 
+    */
+    background: url(./images/bag.png), url(./images/fond.png);
+    background-size: cover;
+
+}
+
+
+/* élément aligné en flexbox par main-container*/
+
+.texte {
+    padding-left: 30px;
+    color:#004400;
+}
+
+.text-use {
+    font-size:45px ;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.text-ecobag{
+    font-size: 110px;
+    font-family: 'Economica', sans-serif;
+    line-height: .8;
+}
+
+.text-save {
+    font-size: 45px;
+    font-family: 'Economica', sans-serif;   
+    margin-bottom: 15px;
+}
+
+.text-lorem {
+    font-size: 19px;
+    font-family: sans-serif; 
+    width: 460px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+
+.icones-actions img {
+    width: 60px;
+    margin-right:10px
+}
